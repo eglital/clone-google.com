@@ -19,27 +19,35 @@ input {
 
 ul {
   list-style-type: none;
-  margin: 10px 0;
   padding: 0;
+}
+
+.navbar ul {
   position: fixed;
   top: 0;
   width: 100%;
+  margin: 10px 0;
 }
 
-li {
+.navbar li {
   float: right;
   padding: 8px;
   line-height: 1.3em;
 }
 
-li a {
+body {
   font-family: Arial;
   color: #6d6b6b;
   font-size: 14px;
-  text-decoration: none;
+  
 }
 
-ul img {
+li a {
+  text-decoration: none;
+  color: #6d6b6b;
+}
+
+.navbar ul img {
   display: block;
 }
 
@@ -58,4 +66,25 @@ ul img {
   width: 30px;
   height: 30px;
   padding-right: 20px;
+}
+
+.footer ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer li {
+  padding: 0 15px;
+}
+
+.left-footer li {
+  float: left;
+}
+
+.right-footer li {
+  float: right;
 }
