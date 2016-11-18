@@ -10,8 +10,52 @@ input {
   height: 30px;
   margin: 15px auto;
   display: block;
+  font-size: 16px;
 }
 
 .center-container {
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+  padding: 8px;
+  line-height: 1.3em;
+}
+
+li a {
+  font-family: Arial;
+  color: #6d6b6b;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+ul img {
+  display: block;
+}
+
+.apps-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.notifications-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
 }
