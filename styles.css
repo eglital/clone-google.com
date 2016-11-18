@@ -1,0 +1,17 @@
+.center-container img {
+  width: 272px;
+  display: block;
+  padding-top: 210px;
+  margin: 0 auto;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  margin: 15px auto;
+  display: block;
+}
+
+.center-container {
+  text-align: center;
+}
