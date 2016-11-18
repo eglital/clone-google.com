@@ -13,6 +13,20 @@ input {
   font-size: 16px;
 }
 
+.btn input{
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  width: 150px;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
 .center-container {
   text-align: center;
 }
@@ -88,3 +102,4 @@ li a {
 .right-footer li {
   float: right;
 }
+
